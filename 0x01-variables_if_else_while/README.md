@@ -1,1 +1,1 @@
-My C Variable
+My C
