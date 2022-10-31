@@ -1,26 +1,12 @@
 #include "main.h"
-
 /**
- * _strchr - locates a character in a string
+ * set_string - sets the value of a pointer to a char
+ * @s: pointer to change
+ * @to: string to change pointer to
  *
- * @c: occurrence of the character
- *
- * @s: in the string
- *
- * Return: a pointer to the first occurrence of the character
+ * Return: void
  */
-
-char *_strchr(char *s, char c)
+void set_string(char **s, char *to)
 {
-	while (*s)
-	{
-		if (*s != c)
-			s++;
-		else
-			return (s);
-	}
-	if (c == '\0')
-		return (s);
-
-	return (NULL);
-)
+	*s = to;
+}
