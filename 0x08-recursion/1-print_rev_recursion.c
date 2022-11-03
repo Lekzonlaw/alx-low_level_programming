@@ -1,5 +1,3 @@
-es (14 sloc)  206 Bytes
-
 #include "main.h"
 /**
  * _print_rev_recursion - print a string in reverse
@@ -7,11 +5,102 @@ es (14 sloc)  206 Bytes
  * Return 0;
 */
 
+
 void _print_rev_recursion(char *s)
 {
-	if (*s)
+        if (*s)
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		-print_rev_recursion(s + 1);
+		-putchar(*s);
 	}
 }
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                                                                                                                  12,3-17       Top
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                                                                                                                 
